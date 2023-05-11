@@ -1,0 +1,4 @@
+--- Cài đặt typescript -----
+
+1. sudo npm install -g typescript
+2. sudo npm install -g ts-node
