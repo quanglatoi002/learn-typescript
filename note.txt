@@ -2,3 +2,13 @@
 
 1. sudo npm install -g typescript
 2. sudo npm install -g ts-node
+
+--- lesson4---
+why phải dùng TypeScript
+TS với hệ thống Types => hạn chế bugs khi khối lượng codebase lớn (các project lớn,nhiều members)
+
+1. Dynamic types với javascript
+Javascript là ngôn ngữ với 'type' động, có nghĩa là chúng ta có thể thay đổi "datatype"-kiểu dữ liệu
+2.Vấn đề với Dynamic types
+-Nếu truyền sai type thì kết quả sẽ trả về sai => cần bổ sung validate 
+=> typescript có thể giải quyết vấn đề này(trong phần vd lesson4)
