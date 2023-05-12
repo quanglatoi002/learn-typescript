@@ -2,3 +2,7 @@ Thực ra thì trong OOP tồn tại một lớp gọi là lớp trừu tượng
 
 Tại sao nó lại trừu tượng? Nó trừu tượng ở chỗ nào?
 Nó trừu tượng ở chỗ là nó không thể dùng để khởi tạo một thể hiện(instance) thông qua từ khóa new như những lớp bình thường khác
+
+====== Abstract class là một lớp đặt biệt, không thể được khởi tạo trực tiếp, mà chỉ có thể được kế thừa bởi các lớp khác. Một lớp trừu tượng có thể có các phương thức và thuộc tính như bình thường, nhưng có thể để trống một số phương thức để được định nghĩa bởi các lớp con. 
+
+===== Interface nó cho phép định nghĩa một tập hợp các thuộc tính và phương thức mà một đối tượng cần phải có. Một interface không thể được khởi tạo trực tiếp, nhưng nó có thể được sử dụng để kiểm tra xem 1 đối tượng có thỏa mãn các yêu cầu của inteface hay không
