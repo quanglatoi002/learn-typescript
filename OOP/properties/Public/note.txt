@@ -1,0 +1,1 @@
+public: Tất cả các thuộc tính và phương thức mặc định trong TypeScript đều là public. Điều này có nghĩa là các thuộc tính và phương thức này có thể được truy cập từ bên trong hoặc bên ngoài đối tượng.
