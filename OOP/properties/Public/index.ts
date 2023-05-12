@@ -16,3 +16,4 @@ class Person {
 
 const john = new Person("Quang", 23);
 john.sayNo();
+console.log(john.name); // do ở public nên có thể truy cập name ở phạm vi bên ngoài.

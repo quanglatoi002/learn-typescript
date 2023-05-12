@@ -1,3 +1,4 @@
+export {};
 class Person {
     readonly name: string;
     age: number;
