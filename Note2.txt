@@ -1,0 +1,27 @@
+Does anyone know the difference between String and string in TypeScript?
+
+    - string là một kiểu dữ liệu nguyên thủy trong TS, nó đại diện cho chuỗi ký tự. Nó được dùng để biểu diễn dữ liệu văn bản.
+
+    - Mặt khác, String được bao bọc xung quanh kiểu 
+string nguyên thủy
+
+vd:
+    let myString: string = "Hello, world!";
+let myStringObject: String = new String("Hello, world!");
+
+console.log(typeof myString); // "string"
+console.log(typeof myStringObject); // "object"
+
+===>> Tốt nhất bạn nên dùng kiểu dữ liệu 'string' ngoài những trường hợp đặt biệt khi thao tác với các phương thức và thuộc tính bổ sung mà đối tượng 'String' mang lại.
+
+======== Các thuộc tính của 'string' trong Typescript:
+1. length
+2. charAt(index:number):string
+3. concat(...strings: string[]):string trả về 1 chuỗi mới được tạo bằng cách nối chuối đang xét với các chuỗi khác.
+4. indexOf(searchValue: string, fromIndex?:number): number. Phương thức indexOf() trả về vị trí đầu tiên của chuỗi con được tìm thấy trong chuỗi đang xét. Tham số đầu vào(searchValue) là chuỗi con cần tìm kiếm, và tham số từ 2 là vị trí bắt đầu tìm kiếm trong chuỗi đang xét, nếu tham số t2 ko được truyền thì mặc định sẽ lấy giá trị đầu tiên của chuỗi đang xét
+5. lastIndex(searchValue:string, fromIndex?:number) trả về vị trí cuối cùng
+6. slice(start?:number, end?:number):string 
+7. substr(start:number, length?:number):string tương tự như slice nhưng tham số thứ 2 là độ dài của chuỗi
+8. substring(start: number, end: number): string được sử dụng để trích xuất chuỗi con từ chuỗi gốc.
+vd: const subStr: string = str.substring(0, 4);
+console.log(subStr); // "Hell"

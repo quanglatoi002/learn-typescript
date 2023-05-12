@@ -1,3 +1,4 @@
+export {};
 const sum3 = (x: number, y: number) => {
     return x + y;
 };
