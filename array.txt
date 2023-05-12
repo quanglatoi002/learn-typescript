@@ -1,0 +1,91 @@
+======== Các thuộc tính của Array =======
+1. length: Trả về độ dài của mảng
+vd:
+const arr: number[] = [1, 2, 3, 4, 5];
+console.log(arr.length); // 5
+
+2.'constructor': Trả về hàm khởi tạo của đối tượng mảng
+const arr: number[] = [1, 2, 3, 4, 5];
+console.log(arr.constructor); // ƒ Array() { [native code] }
+3. 'prototype' Định nghĩa các thuộc tính và phương thức được thêm vào cho tất cả các đối tượng 'Array'
+console.log(Array.prototype); // {concat: ƒ, constructor: ƒ, copyWithin: ƒ, fill: ƒ, find: ƒ, ...}
+
+======== Các phương thức xử lý mảng ========
+
+    1. concat() Kết hợp mảng hiện tại với 1 hoặc nhiều mảng khác và trả về mảng mới
+vd:
+const arr1: number[] = [1, 2, 3];
+const arr2: number[] = [4, 5, 6];
+const arr3: number[] = [7, 8, 9];
+
+const arr4: number[] = arr1.concat(arr2, arr3);
+console.log(arr4); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    2. every() : Kiểm tra tất cả các phần tử trong mảng có thỏa mãn 1 điều kiện hay không.
+vd:
+const arr: number[] = [1, 2, 3, 4, 5];
+
+const isGreaterThanZero: boolean = arr.every((item) => item > 0);
+console.log(isGreaterThanZero); // true
+
+const isEven: boolean = arr.every((item) => item % 2 === 0);
+console.log(isEven); // false
+
+    3. filter(): Trả về 1 mảng mới với các phần tử thỏa mãn một điều kiện nhất định
+vd:
+    const arr: number[] = [1, 2, 3, 4, 5];
+const evenNumbers: number[] = arr.filter((item) => item % 2 === 0);
+console.log(evenNumbers); // [2, 4]
+
+    4. find(): Trả về phần tử đầu tiên trong mảng thoải mãn 1 điều kiện nhất định
+vd:
+const arr: number[] = [1, 2, 3, 4, 5];
+const evenNumber: number | undefined = arr.find((item) => item % 2 === 0);
+console.log(evenNumber); // 2
+
+const greaterThanFive: number | undefined = arr.find((item) => item > 5);
+console.log(greaterThanFive); // undefined
+
+    5. forEach(): Thực hiện 1 hành động nhất định trên mỗi phần tử của mảng
+    const arr: number[] = [1, 2, 3, 4, 5];
+
+arr.forEach((item) => {
+  console.log(item);
+});
+// 1
+// 2
+// 3
+// 4
+// 5
+
+    6. includes(): Kiểm tra 1 giá trị có tồn trong mảng hay ko
+    vd:
+    const numbers: number[] = [1, 2, 3, 4, 5];
+
+    const isPresent: boolean = numbers.includes(5);
+
+    console.log(isPresent); // true
+    
+    7.indexOf()
+    8.join(): Trả về một chuỗi được tạo ra bằng cách nối tất cả các phần tử trong mảng với một dấu phân cách nhất định.
+    vd:
+const arr: string[] = ["hello", "world", "!"];
+const message: string = arr.join(" ");
+console.log(message); // "hello world !"
+    9.lastIndexOf()
+    10. map()
+vd:
+const arr: number[] = [1, 2, 3, 4, 5];
+const doubledNumbers: number[] = arr.map((item) => item * 2);
+console.log(doubledNumbers); // [2, 4, 6, 8, 10]
+
+    11. pop(): Xóa phần tử cuối cùng của mảng và trả về phần tử đó
+vd:
+const arr: number[] = [1, 2, 3, 4, 5];
+const lastItem: number | undefined = arr.pop();
+console.log(lastItem); // 5
+console.log(arr); // [1, 2, 3, 4]
+
+    12. push()
+
+
