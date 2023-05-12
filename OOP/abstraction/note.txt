@@ -1,0 +1,4 @@
+Thực ra thì trong OOP tồn tại một lớp gọi là lớp trừu tượng(abstract, inteface), nó hoàn toàn có thực.
+
+Tại sao nó lại trừu tượng? Nó trừu tượng ở chỗ nào?
+Nó trừu tượng ở chỗ là nó không thể dùng để khởi tạo một thể hiện(instance) thông qua từ khóa new như những lớp bình thường khác

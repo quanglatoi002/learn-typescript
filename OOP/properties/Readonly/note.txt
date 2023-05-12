@@ -1,0 +1,1 @@
+-- readonly: được chỉ định rằng đối tượng đó chỉ có thể đọc và không bị ghi đè bởi các phương thức khác. Thuộc tính được đánh dấu là 'readonly' sẽ không thể bị thay đổi giá trị sau khi được khởi tạo.
