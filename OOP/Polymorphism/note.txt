@@ -1,0 +1,5 @@
+Tính đa hình (Polymorphism) là khả năng cho phép các đối tượng có thể có nhiều hình dạng hoặc hành vi khác nhau mà không cần thay đổi tên hoặc kiểu của chúng.
+
+--Override là việc ghi đè kên phương thức của lớp cha trong lớp con, bằng cách cung cấp một triển khai mới cho phương thức đó trong lớp con
+
+--Overloading là tính năng cho phép định nghĩa nhiều phương thức cùng tên nhưng với số lượng và tham số khác nhau. Khi gọi hàm, Ts sẽ xác định xem nó gọi đến phiên bản hàm nào dựa trên số lượng và tham số được truyền vào

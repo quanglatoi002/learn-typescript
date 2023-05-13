@@ -3,7 +3,9 @@ export {};
 interface Person {
     name: string;
     age: number;
+    //interface chỉ có thể khai báo, ko định nghĩa code trong method
     sayHello(): void;
+
     // Nếu ko định nghĩa constructor thì Js enginne sẽ tự động gọi constructor mặc định của class cha
 }
 

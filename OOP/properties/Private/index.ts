@@ -1,5 +1,6 @@
 export {};
 class Person {
+    //Khi được đánh dấu là private, thành viên đó sẽ không thể truy cập được từ bên ngoài class chữa nó. Kể cả class con kế thừa
     private id: number;
     name: string;
 
