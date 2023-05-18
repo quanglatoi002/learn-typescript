@@ -1,0 +1,1 @@
+-- private: Nếu 1 thuộc tính hoặc phương thức được đánh dấu là private, thì chúng chỉ có được truy cập từ bên trong đối tượng đó, và không thể được truy cập từ bên ngoài

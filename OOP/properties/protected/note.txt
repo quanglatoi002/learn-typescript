@@ -1,0 +1,1 @@
+-- protected: Nếu thuộc tính hoặc phương thức đc chỉ định là 'protected', thì chúng có thể truy cập từ bên trong đối tượng đó và các lớp con của nó, ko thể truy cập từ bên ngoài.

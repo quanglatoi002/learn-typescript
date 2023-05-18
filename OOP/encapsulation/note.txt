@@ -1,0 +1,3 @@
+Encapsulation là 1 trong những nguyên tắc cốt lõi của lập trình hướng đối tượng(OOP), nó giúp đảm bảo tính đóng gói của dữ liệu và hành vi của đối tượng
+
+Encapsulation được thực hiện bằng cách đóng gói các thuộc tính và phương thức của đối tượng trong 1 lớp và đặt quyền truy cập vào chúng bằng cách sử dụng các từ khóa như private, protected, public
