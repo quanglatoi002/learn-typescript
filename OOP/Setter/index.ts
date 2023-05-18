@@ -18,6 +18,10 @@ class Person {
         this._age = newAge;
     }
 }
+//chỉ có thể lấy giá trị get thông qua phương thức thôi và không thể lấy trực tiếp giá trị vì chúng ta đang khai báo là private
+
+//lưu ý: Khi truy cập getter và setter ta không cần gọi ngoặc đơn '()' sau tên thuộc tính
+//Getter và setter không thể sử dụng trong khối interface. Bạn chỉ có thể định nghĩa getter và setter trong lớp hoặc đối tượng
 //getter
 const person = new Person(25);
 console.log(person.age); // Output: 25
